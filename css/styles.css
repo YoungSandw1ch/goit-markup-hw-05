@@ -478,6 +478,8 @@ body {
 /*---------------------------------------modal-window-----------------------------------*/
 .backdrop {
   position: fixed;
+  top: 0;
+  left: 0;
   width: 100%;  
   height: 100%;
   background-color: rgba(0, 0, 0, 0.2);
@@ -509,6 +511,7 @@ body {
   height: 30px;
   background-color: var(--nullBg);
   border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 50%;
 }
 .modal__icon {
 }

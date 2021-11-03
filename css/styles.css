@@ -134,8 +134,8 @@ body {
   display: flex;
   margin-left: auto;
 }
-.contacts__item{
-}
+/* .contacts__item{} */
+
 .contacts__icon-mail {
   margin-right: 10px;
   fill: currentColor;
@@ -208,7 +208,6 @@ body {
 .hero__btn:focus,
 .hero__btn:hover {
   background-color: var(--brandHover);
-  
 }
 /*----------------------------rows-----------------------*/
 .rows {

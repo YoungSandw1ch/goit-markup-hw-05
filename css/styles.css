@@ -318,17 +318,17 @@ body {
   margin-bottom: 16px;
   color: var(--secondFontColor);
 }
-.social-links {
+.social {
   display: flex;
   justify-content: center;
 }
 
-/* .social-links__item {} */
+/* .social__item {} */
 
-.social-links__item:not(:last-child) {
+.social__item:not(:last-child) {
   margin-right: 10px;
 }
-.social-links__link{
+.social__link{
   display: flex;
   align-items: center;
   justify-content: center;
@@ -338,12 +338,12 @@ body {
   border-radius: 50%;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.social-links__link:focus,
-.social-links__link:hover {
+.social__link:focus,
+.social__link:hover {
   background-color: var(--brandColor);
   color: var(--nullBg);
 }
-.social-links__icon {
+.social__icon {
   fill: currentColor;
 }
 /*----------------------------clients---------------------*/
@@ -533,11 +533,11 @@ body {
   color: var(--lightFontColor);
   margin-bottom: 20px;
 }
-.social-links--position {
+.social--position {
   padding: 0;
   margin: 0;
 }
-.social-links__link--style {
+.social__link--style {
   color: var(--nullBg);
   background-color: rgba(255, 255, 255, 0.1);
   border-radius: 50%;
